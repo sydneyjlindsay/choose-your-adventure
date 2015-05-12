@@ -48,6 +48,7 @@ After completing this assignment, you be able to effectively use
 Fork this repository and modify the `dist/game.js` file to create a choose your own adventure style game. Use boolean logic, string comparison and if statements to create a choose your own adventure style game. The theme is up to you.
 
 Use the following commands to create the game...
+
 1. `yield adventure.say` says something to the user. It can take two arguments, a heading and a sub-heading.
 2. `yield adventure.ask` prompts the user to input something into a text box. Takes one argument, a question to ask the user. The users input is returned.
 3. `yield adventure.choose` prompts the user to select an option from a list of options. Takes two or more arguments. The first argument is the question to ask the user. The subsequent arguments are the options that the user can choose from.
